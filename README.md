@@ -5,7 +5,7 @@
 2. Install requirements
 
 ```
-pip install -r requirements
+pip install -r requirements.txt
 ```
 
 * [Chrome Driver Link](https://chromedriver.chromium.org/downloads)
