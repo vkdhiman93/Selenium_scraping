@@ -6,7 +6,8 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 # Create a service object
-serv_obj = Service("E:\MSM_Work\Selenium\driver\chromedriver.exe")
+driver_path = "E:\MSM_Work\Selenium\driver\chromedriver.exe"
+serv_obj = Service(driver_path)
 
 driver = webdriver.Chrome(service=serv_obj)
 
